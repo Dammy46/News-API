@@ -1,0 +1,162 @@
+
+*{
+  font-family: 'Poppins', sans-serif;
+}
+nav{
+  background-color: #fff;
+}
+nav .navbar-brand{
+  display: inline-block;
+  padding-top: .3125rem;
+  padding-bottom: .3125rem;
+  margin-right: 1rem;
+  font-size: 1.25rem;
+  line-height: inherit;
+  white-space: nowrap;
+}
+
+
+.ml-auto{
+  margin-left: auto;
+}
+
+.nav-item{
+  font-weight: bold;
+}
+.navbar-item a{
+  color: black;
+  text-decoration: none;
+}
+.navbar-item a:hover{
+  color: rgba(255, 255, 255, 0.815);
+}
+
+/* End of Nav */
+
+
+.News{
+  padding: 6rem 0;
+  background-color: #3a454e12;
+}
+.card-header{
+  text-align: center;
+  font-size: 1.1rem;
+  font-weight: 600;
+  color: #05b169;
+}
+#output, #output2{
+  height: 45rem;
+}
+
+#inner, #inner2{
+  height: 90%;
+  border: none;
+  overflow-y: scroll;
+  box-shadow: 5px 4px 9px 0px grey;
+  padding: 1rem;
+}
+.main{
+  display: flex;
+  padding: 1rem;
+  margin-bottom: 1rem;
+  cursor: pointer;
+  background-color: #fff;
+  border-radius: 1rem;
+}
+.img-col{
+  margin-right: 1rem;
+}
+.img-col img{
+  width: 100%;
+  height: 100%;
+  border-radius: 1rem;
+}
+.heading{
+  white-space: nowrap;
+  text-overflow: ellipsis;
+  overflow:hidden;
+  
+  width: 20rem
+}
+.paragraph{
+  overflow: hidden;
+  text-overflow: ellipsis;
+  display: -webkit-box;
+  -webkit-line-clamp: 3;
+  -webkit-box-orient: vertical;
+}
+
+
+
+
+
+
+footer{
+  padding-top: 2rem;
+  background: #3A454E;
+}
+footer a{
+  text-decoration: none;
+}
+footer a:hover{
+  color: rgb(148, 148, 148);
+}
+.logo{
+  font-size: 2rem;
+  color: #000;
+}
+.category{
+  font-size: 1.5rem;
+  color: #000;
+}
+footer .card{
+  height: 11rem;
+  background: #fff;
+  border: none;
+  border-radius: 1rem;
+  padding: 1rem;
+}
+footer input{
+  border: none;
+  border-radius: 50px;
+  height: 3rem;
+  box-shadow: 3px 2px 13px;
+  padding: 1rem;
+  margin-bottom: 2rem;
+  outline: none;
+}
+.foot{
+  background: #b3b3b336;
+  padding-bottom: 1rem;
+  padding-top: 1rem;
+
+}
+
+
+
+@media(max-width: 425px){
+  .img-col img{
+    width: 100%;
+    height: 50%;
+  }
+  .heading{
+    width: 10rem
+  }
+  #output, #output2{
+    height: fit-content;
+  }
+  #inner, #inner2{
+    box-shadow: none;
+    padding: 0rem;
+  }
+  #inner{
+    margin-bottom: 1rem;
+  }
+  .heading{
+    font-size: 1.2rem;
+    font-weight: bold;
+  }
+  .paragraph{
+    font-size: 15px;
+  }
+}
